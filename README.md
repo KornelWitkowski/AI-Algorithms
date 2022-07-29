@@ -1,5 +1,9 @@
 # Algorithms
 
+## Spider bot
+
+The script seeks urls starting from the html of the given intial urls. It is based on the breadth-first-search algorithm
+![alt text](https://github.com/KornelWitkowski/Algorithms/blob/main/WebSpider_img.png)
 
 ## Maze solver
 
