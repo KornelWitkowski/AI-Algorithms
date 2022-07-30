@@ -1,5 +1,7 @@
 # Algorithms
 
+A project contains several artificial intelligence algorithms excluding neural networks.
+
 ## Spider bot
 
 The script seeks urls in the internet starting from the html of the given intial urls, then it checks htmls of visited website and adds found url to its queue. It is based on the breadth-first-search algorithm
