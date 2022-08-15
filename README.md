@@ -16,6 +16,6 @@ A maze solver based on the depth-first-search algorithm. It finds a path or chec
 
 ## Knigths - genetic algorithm
 
-Algorithm looks for a configuration of given number knigths in which the pieces do not attack themselves.
+Algorithm looks for a configuration of given number knigths in which the pieces on a chessboard do not attack themselves.
 
 ![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/knights.png)
