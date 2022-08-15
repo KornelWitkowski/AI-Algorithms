@@ -5,7 +5,7 @@ import numpy as np
 TOURNAMENT_SIZE = 20
 MIN_LOSS = 0
 CHROMOSOME_LENGTH = 8
-KNIGHTS_NUMBER = 32
+KNIGHTS_NUMBER = 23
 
 # possible knight moves
 MOVES = ((1, 2), (1, -2), (-1, 2), (-1, -2),
@@ -99,12 +99,12 @@ class GeneticAlgorithm:
 
         while pop.get_lowest_loss().get_loss() != MIN_LOSS:
             generation_counter += 1
-            print(f'Generation #{generation_counter} - the best individual so far is:\n'
+            print(f'Generation #{generation_counter} - the best individual is:\n'
                   f'{pop.get_lowest_loss()}\n '
                   f'with loss: {pop.get_lowest_loss().get_loss()}')
             pop = self.evolve_population(pop)
 
-        print("Solution:")
+        print(f"The solution of putting {KNIGHTS_NUMBER} knights without collision is:")
         print(pop.get_lowest_loss())
 
     def evolve_population(self, population):
