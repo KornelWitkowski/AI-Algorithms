@@ -22,6 +22,13 @@ Algorithm looks for a configuration of given number knigths in which the pieces 
 
 ## Simulated Annealing: Architect
 
-In the architect game, player is supposed to put containers for every house in the board in such way that containers do not border (also diagonaly). The number indicate how many containers should be in a row or in a column. Computer solves the problem with the simulated annealing algorithm.
+In the architect game, the player is supposed to put containers for every house on the board in such a way that containers do not border (also diagonally). The number indicates how many containers should be in a row or in a column. The computer solves the problem with the simulated annealing algorithm.
 
 ![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/architect.png)
+
+
+## Particle Swarm Optimization: fiding global minimum of a function
+
+The particle swarm optimization was used to find the global minimum of a selected function. The algorithm creates a given number of particles that explore the search space of a problem, and the particles exchange information about found values. As a result of the information exchange, the global minimum is found.
+
+![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/particle_swarm.png)
