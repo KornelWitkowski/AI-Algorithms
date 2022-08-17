@@ -1,4 +1,4 @@
-# Algorithms
+# AI Algorithms
 
  The project contains applications of several artificial intelligence algorithms excluding neural networks.
 
