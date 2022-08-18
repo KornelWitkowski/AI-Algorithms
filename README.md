@@ -14,7 +14,7 @@ A maze solver based on the depth-first-search algorithm. It finds a path or chec
 
 ![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/maze_img.png)
 
-## Genetic algorithm: Knigths - 
+## Genetic algorithm: Knigths
 
 Algorithm looks for a configuration of given number knigths in which the pieces on a chessboard do not attack themselves.
 
