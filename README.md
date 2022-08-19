@@ -1,6 +1,6 @@
 # AI Algorithms
 
- The project contains applications of several artificial intelligence algorithms excluding neural networks.
+ The project contains applications of several artificial intelligence algorithms.
 
 ## Breadth first search: Spider bot
 
