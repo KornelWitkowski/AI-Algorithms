@@ -257,7 +257,7 @@ if __name__ == '__main__':
         game = TicTacToe(ai_player_1, ai_player_2, verbose=0)
         j += game.play()
 
-        if n % 200 == 0:
+        if n % 50 == 0:
             print(f"Iteration: {n}")
             print(f"Score: {-j}")
             j = 0
