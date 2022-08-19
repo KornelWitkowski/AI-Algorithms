@@ -32,3 +32,10 @@ In the architect game, the player is supposed to put containers for every house 
 The particle swarm optimization was used to find the global minimum of a selected function. The algorithm creates a given number of particles that explore the search space of a problem, and the particles exchange information about found values. As a result of the information exchange, the global minimum is found.
 
 ![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/particle_swarm.png)
+
+
+## Q-learning: Tic Tac Toe:
+
+Q-learning algorithm was used to train a neural network to play a tic tac toe game. However, it is only a proof of concept, and further optimizations can be made.
+
+![alt text](https://github.com/KornelWitkowski/AI-Algorithms/blob/main/readme_imgs/tictactoe.png)
